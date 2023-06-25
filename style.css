@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #485461; */
+    -webkit-font-smoothing:antialiased;
+}
+body{
+    background-color: #485461; 
+    background: green;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}
+.logo{
+    font-size: 1.5rem;
+    text-decoration: none solid rgb(0, 0, 0);
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    
+}
+
+.search-input{
+    padding: .46rem;
+    border: none;
+    border-radius: .3rem;
+    
+}
+.search-input:focus{
+    outline: #874556 solid 2px;
+}
+
+.search-button{
+    font-family: Arial;
+    text-decoration: none dashed rgb(255, 255, 255);
+    background-color:  #874556;
+    color:  #FFFFFF;
+    border:none;
+    margin: 0 0 0 1rem;
+    padding: 6px 12px 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    outline: rgb(255, 255, 255) dashed 0px;
+    border-radius: .2rem;
+}
+
+.search-button:hover{
+    color: #874556;
+    background-color:#F2F2F2;
+    border: 1px solid #874556;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.tab{
+    list-style-type:none ;
+    margin-left: 14px;
+    margin-top: .5rem;
+    font-size: 16px;
+
+}
+.tab-link{
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+.tab-link:hover{
+    background-color: #874556;
+    color: #F2F2F2;
+}
+
+.tabA{
+    background-color: #874556;
+    list-style: none;
+    padding: 7px;
+    border-radius: 4px;
+}
+.tab-linkA{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.login_box{
+   margin: 9rem auto;
+   height: 15rem;
+   width: 20rem;
+   background-color: #FFFFFF;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.name{
+    font-size: 1rem; 
+    margin: 0 0 1rem 0;  
+    font-weight: 700;
+}
+
+.value{
+    width: 17rem;
+    height: 2.5rem;
+    padding: 1rem; 
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+   
+    border: 2px inset  #767676;
+
+}
+.login{ 
+    font-size: 16px;
+    height: 2.3rem;
+    width: 5rem;
+    border:none;
+    padding: .6rem 1rem;
+    background-color: #874556;
+    color:#F2F2F2;
+    border-radius: 5px;
+    margin-top: 1rem;
+
+}
+
+
+
+
+
